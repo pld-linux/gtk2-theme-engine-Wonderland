@@ -2,7 +2,7 @@ Summary:	Bluecurve theme
 Summary(pl):	Motyw Bluecurve
 Name:		gtk2-theme-engine-Wonderland
 Version:	1.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Themes/Gtk
 Source0:	http://ftp.gnome.org/pub/GNOME/teams/art.gnome.org/themes/gtk2/GTK2-Wonderland-Engine-%{version}.tar.bz2
@@ -12,6 +12,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+2-devel
 BuildRequires:	libtool
+Conflicts:	gtk2-theme-engine-Bluecurve
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
