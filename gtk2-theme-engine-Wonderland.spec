@@ -11,7 +11,9 @@ URL:		http://art.gnome.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+2-devel
+BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
+BuildRequires:	pkgconfig
 Obsoletes:	gtk2-theme-engine-Bluecurve
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
