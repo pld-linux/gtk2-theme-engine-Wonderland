@@ -25,6 +25,7 @@ Oryginalny silnik Bluecurve z pakietu grafik Red Hata.
 %setup -q -n Bluecurve
 
 %build
+install %{_datadir}/automake/config.sub .
 %{__autoconf}
 %configure
 %{__make}
