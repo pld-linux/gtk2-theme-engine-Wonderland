@@ -6,6 +6,7 @@ Release:	0.1
 License:	GPL
 Group:		Themes/Gtk
 Source0:	http://ftp.gnome.org/pub/GNOME/teams/art.gnome.org/themes/gtk2/GTK2-Wonderland-Engine-%{version}.tar.bz2
+# Source0-md5:	0c6a5bbba6ab18984269c7ecbfcebf16
 URL:		http://art.gnome.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
