@@ -1,4 +1,5 @@
 Summary:	Bluecurve theme
+Summary(pl):	Motyw Bluecurve
 Name:		gtk2-theme-engine-Wonderland
 Version:	1.0
 Release:	0.1
@@ -12,16 +13,19 @@ BuildRequires:	gtk+2-devel
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-
 %description
 Original Bluecurve engine from Red Hat's artwork package.
 
+%description -l pl
+Oryginalny silnik Bluecurve z pakietu grafik Red Hata.
+
 %prep
-%setup  -q -n Bluecurve
+%setup -q -n Bluecurve
 
 %build
 %{__autoconf}
 %configure
+
 %{__make}
 
 %install
@@ -29,7 +33,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
-
 
 %clean
 rm -rf $RPM_BUILD_ROOT
